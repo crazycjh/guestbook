@@ -1,0 +1,2 @@
+(this.webpackJsonpguestbook=this.webpackJsonpguestbook||[]).push([[5],{54:function(e,t,s){"use strict";s.r(t);var n=s(0);t.default=function(){return Object(n.jsx)("div",{className:"centered",children:Object(n.jsx)("p",{children:"page not found"})})}}}]);
+//# sourceMappingURL=5.b486f057.chunk.js.map
