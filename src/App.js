@@ -21,7 +21,7 @@ function App() {
         }
       >
         <Switch>
-          <Route path="/" exact>
+          <Route path="/questbook" exact>
             <Redirect to="/quotes" />
           </Route>
           <Route path="/quotes" exact>
