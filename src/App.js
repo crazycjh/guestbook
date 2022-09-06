@@ -22,18 +22,18 @@ function App() {
       >
         <Switch>
           <Route path="/guestbook" exact>
-            <Redirect to="/quotes" />
+            <Redirect to="/guestbook/quotes" />
           </Route>
-          <Route path="/quotes" exact>
+          <Route path="/guestbook/quotes" exact>
             <AllQuotes />
           </Route>
-          <Route path="/quotes/:quoteId">
+          <Route path="/guestbook/quotes/:quoteId">
             <QuotesDetail />
           </Route>
-          <Route path="/new-quote">
+          <Route path="/guestbook/new-quote">
             <NewQuote />
           </Route>
-          <Route path="*">
+          <Route path="/guestbook/*">
             <NotFound />
           </Route>
         </Switch>

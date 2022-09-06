@@ -6,12 +6,12 @@ const MainNavigation = ()=> {
         <nav className={classes.nav}>
             <ul>
                 <li>
-                    <NavLink to='/quotes' activeClassName={classes.active}>
+                    <NavLink to='/guestbook/quotes' activeClassName={classes.active}>
                         全部留言
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/new-quote' activeClassName={classes.active}>
+                    <NavLink to='/guestbook/new-quote' activeClassName={classes.active}>
                         新增留言
                     </NavLink>
                 </li>
